@@ -3,14 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Jenkins</title>
+    <title>Jenkins CI/CD</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1 class="welcome-text">Welcome to Jenkins</h1>
-    </div>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Jenkins</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pipeline">Pipeline</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Jenkins</h1>
+            <p>The leading open-source automation server for CI/CD pipelines.</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <h3>Automation</h3>
+                <p>Automate building, testing, and deployment of your applications.</p>
+            </div>
+            <div class="card">
+                <h3>Plugins</h3>
+                <p>1000+ plugins to integrate with your favorite tools and platforms.</p>
+            </div>
+            <div class="card">
+                <h3>Scalability</h3>
+                <p>Scale across multiple machines and distribute workloads easily.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>What is Jenkins?</h2>
+        <p>
+            Jenkins is an open-source automation server that helps developers build, test, 
+            and deploy their applications efficiently. It enables Continuous Integration 
+            and Continuous Delivery (CI/CD), making development faster and more reliable.
+        </p>
+    </section>
+
+    <!-- Pipeline Section -->
+    <section id="pipeline" class="pipeline">
+        <h2>CI/CD Pipeline</h2>
+        <div class="pipeline-steps">
+            <div class="step">Code</div>
+            <div class="step">Build</div>
+            <div class="step">Test</div>
+            <div class="step">Deploy</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Jenkins CI/CD | Designed for DevOps Learning</p>
+    </footer>
 
 </body>
 </html>
